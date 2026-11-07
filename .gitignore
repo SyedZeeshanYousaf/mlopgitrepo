@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Model and data (stored with DVC, not Git)
+model.pkl
+*.pkl
+*.joblib
+
+# DVC local credentials (never commit)
+.dvc/config.local
+.dvc/tmp/
+.dvc/cache/
+
+# VS Code and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.csv.bak
